@@ -1,0 +1,80 @@
+/* colors and fonts */
+
+
+body {
+	background: rgb(230,230,230);
+	color:  rgb(20,20,20);
+	font-family:Helvetica;
+	font-size: 16px;
+
+}
+h1,h2,h3{
+	font-family: Courier;
+
+}
+
+h1{
+	color: rgb(20,20,20);
+	font-size: 32px;
+}
+h2{
+	color: rgb(100,100,100);
+	
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: rgb(200,100,100);
+
+}
+
+a:hover {
+
+	color:rgb(200,200,100);
+
+}
+
+
+
+#face{
+	width:200px;
+} 
+
+#div1{
+	width:700px;
+	margin:100px auto;
+}
+
+.divc{
+	background-color:rgb(255,255,255);
+	padding: 30px;
+	width: 700px; /* set the width of your container */
+    margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px grey;
+	text-align: center;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .divc {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .divc {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .divc {
+    width: 300px;
+  }
+}
+
+
